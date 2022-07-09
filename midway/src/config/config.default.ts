@@ -19,6 +19,7 @@ export default {
   },
   //配置jwt
   jwt: {
+    secret: "solo",
     expiresIn: "2d",
   },
   crossDomain: {
