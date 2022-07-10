@@ -1,6 +1,8 @@
 import { Provide } from "@midwayjs/decorator"
 import { Column, PrimaryGeneratedColumn } from "typeorm"
+import { EntityModel } from "@midwayjs/orm"
 
+@EntityModel("user")
 @Provide()
 export class UserEntity {
   @PrimaryGeneratedColumn({
